@@ -1,6 +1,6 @@
 import React from 'react';
 
-const apiBaseUrl = "https://helpdesk-api.onrender.com";
+const apiBaseUrl = "https://helpdesk-api-zvz8.onrender.com";
 
 function authHeaders(token) {
   return token ? { "Authorization": "Bearer " + token } : {};
